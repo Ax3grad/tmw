@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outfit Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Outfit Generator</h1>
+        <label for="category">Outfit Category:</label>
+        <button class="button1">
+            <span>
+                SUITS
+            </span>
+        </button>
+        <h5 id="explanation-1">This category will generate a matching Suit and Pants</h5>
+        
+        <button class="button" id="generate-btn">Generate Outfit</button>
+        <div class="outfit">
+            <div class="item top" id="top"><img src="Coat.png" alt="Coat" width="140px" height="140px"></div>
+            <div class="color-name" id="top-name"></div>
+            <div class="item middle" id="middle"><img src="Shirt.png" alt="Shirt" width="140px" height="140px"></div>
+            <div class="color-name" id="middle-name"></div>
+            <div class="item bottom" id="bottom"><img src="Pants.png" alt="Coat" width="110px" height="140px"></div>
+            <div class="color-name" id="bottom-name"></div>
+            <br>
+            <h1>Optional</h1>
+            <div class="item tie" id="tie"><img src="tie.png" alt="Coat" width="50px" height="140px"></div>
+            <div class="color-name" id="tie-name"></div>
+        </div>
+        <h1>Random Colors Generator</h1>
+        
+        <h5 id="explanation-2">This category will generate a RANDOM Suit and Pants color</h5>
+        <button class="button" id="generate-btnR">Generate Random Color Outfit</button>
+        <div class="outfit-R">
+            <div class="item topR" id="topR"><img src="Coat.png" alt="Coat" width="140px" height="140px"></div>
+            <div class="item middleR" id="middleR"><img src="Shirt.png" alt="Shirt" width="140px" height="140px"></div>
+            <div class="item bottomR" id="bottomR"><img src="Pants.png" alt="Coat" width="110px" height="140px"></div>
+        </div>
+    <script src="colorGen.js"></script>
+    <script src="colorGenRandom.js"></script>
+    <footer>
+        <h6>Does this even makes sense? lol</h6>
+    </footer>
+</body>
+</html>
